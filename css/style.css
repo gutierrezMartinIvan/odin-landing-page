@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    max-width: 1440px;
+    max-height: 1912px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: #1F2937; 
+    color: white;
+}
+.right-side {
+    display: flex;
+    font-size: 19px;
+}
+a {
+    color: white;
+}
